@@ -30,36 +30,13 @@ const payload_map = [
     //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
-    // etaHEN is added twice so that on 1.xx-2.xx you can load it in webkit only mode too
-    // but on 3.xx-4.xx it only shows in kernel exploit mode since it needs the 9020 elf loader for kstuff
     {
         displayTitle: "etaHEN",
         description: "AIO HEN",
-        fileName: "etaHEN.bin",
+        fileName: "etaHEN-2.0b.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "1.9b",
-        supportedFirmwares: ["3.", "4."]
-    },
-    {
-        displayTitle: "etaHEN",
-        description: "AIO HEN",
-        fileName: "etaHEN.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "1.9b",
-        supportedFirmwares: ["1.", "2."],
-        toPort: 9021
-    },
-    {
-        displayTitle: "etaHEN [PRE-RELEASE]",
-        description: "AIO HEN",
-        fileName: "etaHEN.2.0b.prerelease.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "- from discord",
+        projectSource: "https://github.com/etaHEN/etaHEN",
+        binarySource: "https://github.com/etaHEN/etaHEN/raw/178499a10cf268093b048079e803717195fcab19/etaHEN-2.0b.bin",
         version: "2.0b",
         toPort: 9021
     },
