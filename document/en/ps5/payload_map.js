@@ -33,11 +33,11 @@ const payload_map = [
     {
         displayTitle: "etaHEN",
         description: "AIO HEN",
-        fileName: "etaHEN-2.0b.bin",
+        fileName: "etaHEN-2.1B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.0b",
+        binarySource: "https://github.com/etaHEN/etaHEN/blob/ea3b04a60f911d31e3888a0f98a57b3cccfe787c/etaHEN-2.1B.bin",
+        version: "2.1b",
         toPort: 9021
     },
     {
@@ -46,8 +46,8 @@ const payload_map = [
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
-        version: "1.3",
+        binarySource: "https://github.com/EchoStretch/kstuff/actions/runs/14686953552",
+        version: "1.3-r3",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
